@@ -71,6 +71,3 @@ Application Development Plan
 - Continuously integrate user feedback to enhance features.
 - Adjust the scraping mechanism in response to changes in the target website's layout or authentication.
 
-## Conclusion
-
-This document outlines the comprehensive plan for developing and deploying the web scraping application using Java, React, and other technologies. It serves as a guide for setup, development, and deployment phases, ensuring smooth workflow and efficient project management.
