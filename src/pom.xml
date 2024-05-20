@@ -18,20 +18,42 @@
     </properties>
 
     <dependencies>
-        <!-- Selenium WebDriver -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.1.1</version>
-        </dependency>
-
-        <!-- Apache Commons CSV for handling CSV files -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-csv</artifactId>
-            <version>1.8</version>
-        </dependency>
-    </dependencies>
+    <!-- Selenium for web interactions -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>LATEST_VERSION</version>
+    </dependency>
+    <!-- JSoup for HTML parsing -->
+    <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>LATEST_VERSION</version>
+    </dependency>
+    <!-- Apache Commons CSV for handling CSV files -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-csv</artifactId>
+        <version>LATEST_VERSION</version>
+    </dependency>
+    <!-- Apache Commons IO for file management -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>LATEST_VERSION</version>
+    </dependency>
+    <!-- Logging dependency -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>LATEST_VERSION</version>
+    </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>LATEST_VERSION</version>
+    </dependency>
+</dependencies>
 
     <build>
         <plugins>
